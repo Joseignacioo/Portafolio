@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    color: #fff;
+}
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+    text-align: center;
+    padding: 2%;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    padding: 2%;
+    font-size: 25px;
+}
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+i{
+    font-size: 100px;
+}
+/*¬¬¬¬¬¬¬¬¬¬¬ NAV ¬¬¬¬¬¬¬¬¬¬¬*/
+nav{
+    background-color: rgba(69, 70, 100, 0.144);
+}
+.container-nav{
+    padding: 2%;
+}
+.container-nav ul{
+    text-align: right;
+}
+.container-nav ul li{
+    text-decoration: none;
+    display: inline;
+}
+.container-nav ul li a{
+    text-decoration: none;
+    padding: 2%;
+}
+.container-nav ul li a:hover{
+    background-color: rgb(55, 49, 131);
+    box-shadow: 2px 2px 5px #fff
+}
+/*¬¬¬¬¬¬¬¬¬¬¬inicio¬¬¬¬¬¬¬¬¬¬¬ */
+#inicio{
+    padding: 15%;
+}
+
+/* ¬¬¬¬¬¬¬¬¬¬¬SECTION¬¬¬¬¬¬¬¬¬¬¬ */
+section{
+    padding: 5%;
+    text-align: center;
+}
+.container-section{
+    padding: 5%;
+    background-color: rgba(69, 70, 100, 0.144);
+    box-shadow: 2px 2px 5px #fff
+}
+/* ¬¬¬¬¬¬¬¬¬¬¬FOOTER¬¬¬¬¬¬¬¬¬¬¬ */
+footer{
+    padding: 3%;
+    background-color: rgba(69, 70, 100, 0.144);
+    text-align: center;
+}
+footer i{
+    font-size: 20px;
+}
